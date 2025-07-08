@@ -1,5 +1,17 @@
 # 🧑🏻‍💻SIEM-Based-Attack-Detection-Log-Analysis
 
+## Table of Content
+1. [Introduction](#introduction)
+2. [Tools & Technologies](#tools--technologies)
+3. [Architecture Diagram](#architecture-diagram)
+4. [Objective](#objective)
+5. [Lab-Setup](#lab-setup)
+6. [Simulated Attacks](#simulated-attacks)
+7. [Splunk Detection](#splunk-detection)
+8. [Alerts creation](alerts-creation)
+9. [Next Step & Improvements](#next-step--improvements)
+10. [Conclusion](#conclusion)
+
 ---
 ## 📘Introduction 
 This projects simulates and detects real-world attacks using a SIEM setup involving splunk, sysmon and a windows 10 system attacked by kali linux.This project mostly focused on-
@@ -28,7 +40,7 @@ This project showcases practical knowledge of SIEM and SOC analyst skils.
 |Windows 10            |Target system                                   |
 
 ---
-## 🧱 Architecture Diagram
+## 🧱Architecture Diagram
 ```txt
 Kali (Attacker)
      |
@@ -48,7 +60,9 @@ Splunk SIEM (Log Analysis + Alerts)
 <li>Create splunk alerts to detect these attacks</li>
 
 ---
-## 🛠️Lab-Setup
+## 🏗Lab Setup
+
+
 ### Step1:Install Kali Linux(Attacker Machine)
 <li>Download Kali Linux ISO from <a href="https://www.kali.org/get-kali/#kali-installer-images">official website.</a></li>
 <li>Update and Upgrade Kali</li>
